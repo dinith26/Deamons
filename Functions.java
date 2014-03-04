@@ -1,4 +1,3 @@
-
 import javax.swing.JOptionPane;
 
 /*
@@ -28,7 +27,7 @@ public class Book {
         
                             }
     
-    public void insert(int id,String fname,String sname,String title,String bname){
+    public void Add(int id,String fname,String sname,String title,String bname){
         
                 
         Functions newnode = new Functions(id,fname,sname,title,bname,null,null);
