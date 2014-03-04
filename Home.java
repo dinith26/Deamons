@@ -303,7 +303,7 @@ public class Home extends javax.swing.JFrame {
                          }
         else{
         
-        searchTree.insert(id,fname,sname,title,bname);
+        searchTree.Add(id,fname,sname,title,bname);
 
         sortData();
         
