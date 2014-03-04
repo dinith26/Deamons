@@ -1,4 +1,3 @@
-
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
@@ -83,7 +82,7 @@ public class Home extends javax.swing.JFrame {
 
         jLabel4.setText("Title");
 
-        cmbtitle.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Java", "Php" }));
+        cmbtitle.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Java", "PHP" }));
 
         btnInsert.setText("Insert");
         btnInsert.addActionListener(new java.awt.event.ActionListener() {
