@@ -86,26 +86,27 @@ public class Book {
         
                                   }
     
-    
-     public void delete(int k)
+       public void delete(int k)
      {
          if (isEmpty())
-             
+             //System.out.println("Tree is Empty");
              JOptionPane.showMessageDialog(null,"Tree is Empty");
          else if (searchNode(k) == null)
-             
+             //System.out.println(+k+" "+"is not in the tree");
              JOptionPane.showMessageDialog(null,+k+" "+"is not in the current tree");
          else
          {
              root = delete(root, k);
-             
+             //System.out.println(k+ " deleted from the tree");
              JOptionPane.showMessageDialog(null,+k+" "+" deleted from the tree");
              
-
+////             Home nm = new Home();
+////             nm.fillTable(k);
              
              
          }
      }
+      
       
      private Functions delete(Functions root, int k)
      {
